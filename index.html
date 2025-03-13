@@ -1,0 +1,359 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio - KyoungWook</title>
+
+    <link rel="shortcut icon" type="image/x-icon"  href="./favicon.ico">
+	<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="./css/style.css" >	
+	<script  src="js/jquery-2.1.1.min.js"></script>
+	<script  src="js/jquery.mousewheel.min.js"></script>
+	<script  src="js/custom.js"></script>
+</head>
+<body>
+
+<!-- 로고 -->
+<h1 class="logo"><a href="#">KyoungWook</a></h1>
+
+<!-- 주 메뉴 -->
+<ul id="menu">
+	<li class="on"><a href="#">Home</a></li>
+	<li><a href="#">Profile</a></li>
+	<li><a href="#">Web(PC)</a></li>
+	<!-- <li><a href="#">Mobile Web(SPA)</a></li> -->
+	<li><a href="#">Responsive</a></li>
+	<li><a href="#">Team Project(SPA)</a></li>
+</ul>
+
+<!-- 전체 페이지 -->
+<div id="wrap">
+
+	<!-- 홈 -->
+	<section id="home">
+        <!-- <ul class="back">
+            <li><img src="./image/bg2/circle.png" alt=""></li>
+            <li><img src="./image/bg2/circle.png" alt=""></li>
+            <li><img src="./image/bg2/circle.png" alt=""></li>
+        </ul> -->
+		<div>
+            <p>Web Publisher & Frontend</p>
+            <h2>Portfolio</h2>
+        </div>
+        <ul class="name_tag">
+            <!-- <li>My name is</li> -->
+            <li>Kim Kyoung Wook</li>
+        </ul>
+	</section>
+	
+	<!-- 프로필 section -->
+	<section id="pf">
+      
+        <h2 class="hidden">Profile</h2>
+        <div class="pf_box">
+            <div class="pf_left">
+                <img src="https://i.pravatar.cc/300" alt="">
+                <ul class="link_btn">
+                    <li><a href="./resume/resume.html" target="_blank" title="온라인 이력서 새창에 열림">Resume</a></li>
+                    <li><a href="./storyboard_kw.pdf" target="_blank" title="스토리보드 새창에 열림">Storyboard</a></li>
+                    <li><a href="https://github.com/ru0dn7/portfolio.git" target="_blank" title="Github 새창에 열림">GitHub</a></li>
+                </ul>
+            </div>
+            <div class="pf_right">
+                <p>Kim Kyoung Wook</p>
+                <ul>
+                    <li>
+                        <dl>
+                            <dt>info</dt>
+                            <dd><span>김경욱</span> / 1993. 8. 17</em></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>contact</dt>
+                            <dd>010. 9012. 2532 / ru0dn7@gmail.com</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>skill</dt>
+                            <dd>HTML5 / CSS3 (SASS, LESS) / JavaScript / jQuery / Bootstrap / <span>비동기처리</span> (AJAX, JSON) / Git / Github / Figma / Adobe Photoshop / Adobe Illustrator / TypeScript / PHP&Mysql / React / Firebase </dd>
+                        </dl>
+                        <ul class="pf_skill">
+                            <li><img src="./image/skill/vscode.png" alt="VScode"></li>
+                            <li><img src="./image/skill/html5.png" alt="HTML5"></li>
+                            <li><img src="./image/skill/css3.png" alt="CSS3"></li>
+                            <li><img src="./image/skill/sass.png" alt="Sass"></li>
+                            <li><img src="./image/skill/js.png" alt="JavaScript"></li>
+                            <li><img src="./image/skill/jquery.png" alt="jQuery"></li>
+                            <li><img src="./image/skill/json.png" alt="json"></li>
+                            <li><img src="./image/skill/ajax.png" alt="AJAX"></li>
+                            <li><img src="./image/skill/git.png" alt="Git"></li>
+                            <li><img src="./image/skill/github.png" alt="GitHub"></li>
+                            <li><img src="./image/skill/ps.png" alt="Photoshop"></li>
+                            <li><img src="./image/skill/ai.png" alt="Illustrator"></li>
+                            <li><img src="./image/skill/figma.png" alt="Figma"></li>
+                            <li><img src="./image/skill/bootstrap.png" alt="Bootstrap"></li>
+                            <li><img src="./image/skill/typescript.png" alt="Bootstrap"></li>
+                            <li><img src="./image/skill/php.png" alt="Bootstrap"></li>
+                            <li><img src="./image/skill/mysql.png" alt="Bootstrap"></li>
+                            <li><img src="./image/skill/react.png" alt="Bootstrap"></li>
+                            <li><img src="./image/skill/firebase.png" alt="Bootstrap"></li>
+                            
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+	</section>
+	
+	<!-- 기업형 웹 section -->
+	<section id="web">
+        <div class="web_warp">
+            <h2 class="hidden">Web</h2>
+            <div class="web_left">
+                <span>기업형 PC 웹 사이트</span>
+                <div class="pc">
+                    <img src="./image/gif/pc.png" alt="">
+                </div>
+                <img src="./image/gif/pc.gif" alt="" class="gif">
+            </div>
+            <div class="web_right">
+                <div class="tit">
+                    <strong>커핀그루나루</strong>
+                    <ul>
+                        <li>Html5 이전 방식으로 제작된 기존의 커핀그루나루 기업 웹사이트 리뉴얼 프로젝트</li>
+                        <li>heading 태그의 부재와 이미지의 alt 속성 누락 등의 문제점 파악</li>
+                        <li>시멘틱 태그를 사용하여 SEO 최적화 및 Outline 재구성으로 웹 접근성과 웹 표준을 준수</li>
+                        <li>4:3 비율의 고전적인 index 페이지와 단조로운 느낌과 트렌드에 뒤처진 레이아웃</li>
+                        <li>기업의 전통적이고 오래된 이미지를 벗어나 세련되고 현대적인 UI 디자인으로 리뉴얼</li>
+                        <li>header와 nav영역을 한눈에 볼 수 있도록 jQuery를 사용해 Dropdown 기능 구현</li>
+                        <li>jQuery를 활용한 index Visual과 Tab 메뉴, scroll spy, Accodian, Gallery 기능 구현</li>
+                        <li>Ajax를 사용해 다양한 메뉴 정보를 객체 배열로 받아 hover, popup 이벤트에 적용</li>
+                        <li>W3C의 마크업 검증, CSS 검사, 웹 접근성 검사 모두 통과 완료</li>
+                        <li>다양한 브라우저 환경에서 호환성 테스트 완료 - 크로스 브라우징</li>
+                    </ul>
+                    
+                    <a href="https://kkwoou.mycafe24.com/" target="_blank" title="기업형 PC 웹사이트 새창으로 열기">Visit Site</a>
+                </div>
+                <div class="colorfont">
+                    <dl class="color">
+                        <dt>Color</dt>
+                        <dd><span class="hidden">Main Color</span></dd>
+                        <dd><span class="hidden">Point Color</span></dd>
+                        <dd><span class="hidden">Sub Color</span></dd>
+                    </dl>
+                    <dl class="font">
+                        <dt>Font</dt>
+                        <dd>Noto Sans KR,  Noto Serif</dd>
+                    </dl>
+                </div>
+                <div class="produce">
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>약 1개월</dd>
+                    </dl>
+                    <dl>
+                        <dt>제작인원</dt>
+                        <dd>1인 기여도 (100%)</dd>
+                    </dl>
+                </div>
+                <div class="skill">
+                    <dl>
+                        <dt>제작스킬</dt>
+                        <dd> HTML5, CSS3, JavaScript(ES6), jQuery, AJAX, JSON, My-SQL & PHP(회원가입/로그인/게시판/검색), Figma, Adobe Photoshop, Adobe Illustrator, W3C 웹표준 통합 마크업 검사(html5/css3), 웹접근성검사(K-WAH), 크로스브라우징 완료</dd> 
+                    </dl>
+                    <!-- <div>
+                        <img src="./image/qr_web.png" alt="기업형 QR">
+                    </div> -->
+                </div>
+            </div>
+        </div>
+	</section>	
+
+	<!-- 반응형 section -->
+	<section id="rw">
+		<div class="rw_warp">
+            <h2 class="hidden">Responsive</h2>
+            <div class="rw_left">
+                <span>반응형 웹 사이트</span>
+                <div class="rw_imgbox">
+                    <img src="./image/gif/pc_w.png" alt="" class="rw">
+                    <img src="./image/gif/rw.gif" alt="" class="gif">
+                </div>
+                <img src="./image/gif/rw_tablet2.png" alt="" class="rw1">
+                <img src="./image/gif/rw_mobile.png" alt="" class="rw2">
+            </div>
+            <div class="rw_right">
+                <div class="tit">
+                    <strong>Jeju Island</strong>
+                    <ul>
+                        <li>한국의 대표 관광지인 제주도를 주제로 반응형 웹 프로젝트</li>
+                        <li>Media Query를 활용해 디바이스별 해상도에 최적화된 UI 설계</li>
+                        <li>Flex와 Grid를 사용하여 다양한 레이아웃 적용</li>
+                        <li>CSS Animation과 scroll 이벤트를 적용하여 동적 효과 구현</li>
+                        <li>Magnific Popup 플러그인을 사용하여, 영상이 페이지 내부에 팝업되어 재생되게 구현</li>
+                        <li>Masonry 플러그인으로 간단한 갤러리 페이지 구성</li>
+                    </ul>
+                    <a href="https://kkwoou.mycafe24.com/media" target="_blank" title="반응형 웹사이트 새창으로 열기">Visit Site</a>
+                </div>
+                <div class="colorfont">
+                    <dl class="color">
+                        <dt>Color</dt>
+                        <dd><span class="hidden">Main Color</span></dd>
+                        <dd><span class="hidden">Point Color</span></dd>
+                        <dd><span class="hidden">Sub Color</span></dd>
+                    </dl>
+                    <dl class="font">
+                        <dt>Font</dt>
+                        <dd>jejuhallasan, Noto Sans KR</dd>
+                    </dl>
+                </div>
+                <div class="produce">
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>약 1개월</dd>
+                    </dl>
+                    <dl>
+                        <dt>제작인원</dt>
+                        <dd>1인 기여도 (100%)</dd>
+                    </dl>
+                </div>
+                <div class="skill">
+                    <dl>
+                        <dt>제작스킬</dt>
+                        <dd>HTML5, CSS3(Media Query), JavaScript, jQuery, AJAX, JSON, Figma, Adobe Premier Pro, Adobe Photoshop, Adobe Illustrator, W3C 웹표준 통합 마크업 검사(html5/css3), 웹접근성검사(K-WAH), 크로스브라우징 완료</dd> 
+                    </dl>
+                    <div>
+                        <img src="./image/qr_rw.png" alt="반응형 웹페이지 QR">
+                    </div>
+                </div>
+            </div>
+        </div>
+	</section>
+
+	<!-- 팀프로젝트 -->
+	<section id="dp">
+		<div class="dp_warp">
+            <h2 class="hidden">Design Portfolio</h2>
+            <div class="dp_left">
+                <span>반응형 팀 프로젝트</span>
+                <div class="dp_imgbox">
+                    <img src="./image/gif/dp.png" alt="" class="dp">
+                    <img src="./image/gif/dp.gif" alt="" class="gif">
+                </div>
+                <img src="./image/gif/dp_tablet.png" alt="">
+                <img src="./image/gif/dp_mobile.png" alt="">
+            </div>
+            <div class="dp_right">
+                <div class="tit">
+                    <strong>Team Project</strong>
+                    <p>프레임워크 중 하나인 React를 적용하여 작업한 디자인 포트폴리오 페이지 입니다.<br> 리액트 라이브러리의 다양한 기능을 적용하고 효율적인 내부 커스터마이징 방법을 통해 PC, 태블릿, 모바일 각각의 해상도에 맞게 유동적인 반응형 웹페이지를 구현하였습니다.</p>
+                    <a href="https://react-project-9360a.web.app/" target="_blank" title="디자인 포트폴리오 페이지 새창으로 열기">Visit Site</a>
+                </div>
+                <div class="colorfont">
+                    <dl class="color">
+                        <dt>Color</dt>
+                        <dd><span class="hidden">Main Color</span></dd>
+                        <dd><span class="hidden">Point Color</span></dd>
+                        <dd><span class="hidden">Sub Color</span></dd>
+                    </dl>
+                    <dl class="font">
+                        <dt>Font</dt>
+                        <dd>Noto Sans KR, sans-serif</dd>
+                    </dl>
+                </div>
+                <div class="produce">
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>약 2주</dd>
+                    </dl>
+                    <dl>
+                        <dt>제작인원</dt>
+                        <dd>5명 / (20%) </dd>
+                    </dl>
+                </div>
+                <div class="skill">
+                    <dl>
+                        <dt>제작스킬</dt>
+                        <dd> React, Ajax & json , Firebase(firestore database / hosting), Figma, Adobe Photoshop, Adobe Illustrator, W3C 웹표준 통합 마크업 검사(html5/css3), 웹접근성검사(K-WAH), 크로스브라우징 완료</dd> 
+                    </dl>
+                    <div>
+                        <img src="./image/qr_dp.png" alt="디자인 포트폴리오 웹페이지 QR">
+                    </div>
+                </div>
+                <dl class="link">
+                    <dt>Github Link</dt>
+                    <dd><a href="https://github.com/ru0dn7/react-project" target="_blank">https://github.com/ru0dn7/react-project</a></dd>
+                </dl>
+            </div>
+        </div>
+        
+	</section>
+</div>
+</body>
+<script>
+$(document).ready(function() {
+    var $h1 = $('h1 a');
+    var sections = [
+        { id: '#home', color: '#fff' },  // 1번 섹션 홈
+        { id: '#pf', color: '#fff' },    // 2번 섹션 프로필
+        { id: '#web', color: 'var(--web-color)' },   // 3번 섹션 WEB
+        { id: '#rw', color: 'var(--rw-color)' },    // 4번 섹션 Responsive
+        { id: '#dp', color: 'var(--dp-color)' }     // 5번 섹션 SPA(Team)
+        
+        
+        // { id: '#mb', color: 'red' },    // 번 섹션 Mobile
+    ];
+
+    $(window).on('scroll', function() {
+        var scrollTop = $(window).scrollTop();
+        var windowHeight = $(window).height();
+        var colorApplied = false;
+
+        sections.forEach(function(section) {
+            var $section = $(section.id);
+            var sectionTop = $section.offset().top;
+            var sectionHeight = $section.outerHeight();
+
+            if (scrollTop + windowHeight > sectionTop + sectionHeight / 10 &&
+                scrollTop < sectionTop + sectionHeight / 10) {
+                $h1.css('color', section.color);
+                colorApplied = true;
+                return false; // 하나의 섹션에 도달하면 나머지는 확인하지 않음
+            }
+        });
+
+        if (!colorApplied) {
+            $h1.css('color', '#006168'); // 기본 색상
+        }
+    });
+});
+</script>
+<script>
+    // 상단 스르륵
+    $(document).ready(function(){
+            $('.logo a').click(function(e){
+            e.preventDefault(); 
+            $("html,body").stop().animate({"scrollTop":0},1000);   
+        });
+    });
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
